@@ -1,0 +1,86 @@
+<html>
+<link rel="stylesheet" media="screen" href="http://networkrepository.com/assets/css/bootstrap.css">
+<link rel="stylesheet" href="http://networkrepository.com/assets/css/responsive.css">   
+<link rel="stylesheet" href="http://networkrepository.com/assets/css/style.css">
+
+<body>
+<br><br>
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="panel panel-info">
+    <div class="panel-heading">
+        <h3 class="panel-title"><i class="icon-group icon-large"></i> About the data</h3>
+    </div>
+    <div class="panel-body">
+        <!-- <h4>Please acknowledge the <a href="http://networkrepository.com" target="_blank">repository</a> in published materials</h4> -->
+
+        <h4>Node classification</h4>
+        <p class="lead12">               
+            Each folder such as <code>ENZYMES</code> consists of a set of graph files.
+            <ul>
+            <li>Each graph has an <code>edge list</code> (e.g., <i>.edges</i>, or <i>.mtx</i>).
+            <li>Each graph also has a <code>class label file</code> (<i>.nodes</i>, or <i>.node_labels</i>) that encodes the class labels of the nodes. This is useful for the node classification task.
+            </ul>
+
+        </p>
+
+<BR><BR>
+<h4>Graph classification</h4>
+
+<p class="lead12"> 
+        There is also a file in each graph collection folder (such as <code>ENZYMES</code>, <code>MUTAG</code>, etc.) that encodes the label of each graph. This is useful for the graph classification task, that is, predicting a label for each graph in the collection. The extension of the graph label file is <code>.graphlabel</code>, e.g., for the <code>ENZYMES</code> graph collection, the file is <code>ENZYMES.graphlabel</code>.
+
+Each line of the file encodes a label for a particular graph. For example:
+<blockquote class="hero"><p style="font-family:'Lato';"><code style="font-size:1.1em;"><br>1 6<br>
+2 6<br>
+3 6<br>
+4 6<br>
+5 6<br>
+...<br>
+            </code>
+            </p>
+            </blockquote>
+In particular, the first line: <code>1 6</code>, assigns the label <code>6</code> to the graph first graph (e.g., <b>g1</b>) represented by <code>ENZYMES_<b>g1</b>.edges</code> and <code>ENZYMES_<b>g1</b>.nodes</code>.
+        </p>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-12">
+<div class="panel panel-success">
+    <div class="panel-heading">
+        <h3 class="panel-title"><i class="icon-group icon-large"></i> Acknowledgement policy</h3>
+    </div>
+    <div class="panel-body">
+        <h4>Please acknowledge the <a href="http://networkrepository.com" target="_blank">repository</a> in published materials</h4> 
+        <p class="lead12">                    
+            If you publish material based on data obtained from this <a href="http://networkrepository.com" target="_blank">repository</a>, then, in your acknowledgements, please note the assistance you received by using <a href="http://networkrepository.com" target="_blank">network repository</a>. 
+            <BR><BR>
+            Please use the following <code>BiBTeX</code> reference:<BR>
+
+            <blockquote class="hero">
+            <p style="font-family:'Lato';">
+            <code style="font-size:1.1em;">
+                        &nbsp; @inproceedings{nr-aaai15,<BR>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    title = {The Network Data Repository with Interactive Graph Analytics and Visualization},<BR>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    author={Ryan A. Rossi and Nesreen K. Ahmed},<BR>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    booktitle = {Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence},<BR>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    url={<i><a href="http://networkrepository.com" target="_blank"><b style="font-weight:bold !important;">http://networkrepository.com</b></a></i>},<BR>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    year={2015}<BR>
+                        &nbsp; }<BR>
+            </code>
+            </p>
+            </blockquote>
+            Many of the datasets have additional citation requests; these can be found on each dataset page.
+            See the <a href="http://networkrepository.com/policy.php" target="_blank">data license and policy</a> for more information.
+        </p>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
