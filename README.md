@@ -1,5 +1,5 @@
 # Graphite: Iterative Generative Modeling of Graphs
-Source code for our IJCAI paper ["Graphite: Iterative Generative Modeling of Graphs"](https://arxiv.org/abs/1803.10459).
+Source code for our paper ["Graphite: Iterative Generative Modeling of Graphs"](https://arxiv.org/abs/1803.10459).
 
 If you find it helpful, please consider citing our paper.
 
@@ -16,9 +16,9 @@ If you find it helpful, please consider citing our paper.
 3. Networkx
 
 ## Training
+
 ```
 python train.py --epochs 500 --model feedback --edge_dropout 0.5 --learning_rate 0.01 --autoregressive_scalar 0.5
-python train_siemens.py --hidden1 10 --hidden2 10 --hidden3 10 --epochs 3000 --dropout 0.0 --learning_rate 0.008
 ```
 
-If you have any questions, feel free to contact <azweig@cs.stanford.edu>.
+If you have any questions, feel free to contact <adityag@cs.stanford.edu> or <azweig@cs.stanford.edu>.
