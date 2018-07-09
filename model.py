@@ -1,4 +1,4 @@
-from gae.layers import GraphConvolution, GraphConvolutionSparse, InnerProductDecoder
+from layers import GraphConvolution, GraphConvolutionSparse, InnerProductDecoder
 from layers import *
 import tensorflow as tf
 
