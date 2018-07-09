@@ -13,7 +13,7 @@ If you find it helpful, please consider citing our paper.
 ## Requirements
 1. python 2.7
 2. Tensorflow
-3. Networkx
+3. Networkx 1.11
 
 ## Training
 
